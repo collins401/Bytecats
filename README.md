@@ -38,6 +38,8 @@ post-type=jobs
 - 精简head内多余标签输出。
 - 一个全局主题字段管理面板，如电话，QQ，统计代码等。
 - 一个幻灯图片管理面板
+
+
 ##关于作者
 Q  Q：373345619 <br />
 网站：[www.bytecats.com](http://www.bytecats.com)
