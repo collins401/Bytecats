@@ -1,0 +1,64 @@
+html{
+  background: transparent;
+}
+body.login{
+ background: #fff url("img/login_bg2.jpg");
+}
+body.login div#login h1 a {
+  background:url(img/logo.png) no-repeat;
+  height: 87px;
+  width: 162px;
+}
+body.login div#login h1{
+  display: block;
+  height: 87px;
+}
+.login form,.login form .input, .login input[type="text"],.wp-core-ui .button-primary,.wp-core-ui .button-primary:hover{
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.login form{
+  background: rgba(10,35,35,.4);
+  border: none;
+}
+.login form .input, .login input[type="text"]{
+  background: transparent;
+  border-color: #444;
+  color: #eee;
+}
+.login form .input:focus{
+  border-color: #666;
+}
+.login label{
+  color: #999;
+  line-height: 35px;
+}
+ 
+.wp-core-ui .button.button-primary{
+  background: rgba(187,64,48,.7);
+  border: none;
+  line-height: 12px;
+  padding: 10px 30px;
+}
+.wp-core-ui .button-primary:hover{
+  background: rgba(0,0,0,.4);
+  -webkit-transition: background 0.5s ease-out 0s;
+  -moz-transition: background 0.5s ease-out 0s;
+  -ms-transition: background 0.5s ease-out 0s;
+  -o-transition: background 0.5s ease-out 0s;
+  transition: background 0.5s ease-out 0s;
+}
+.wp-core-ui .button.button-primary,
+.login label,
+.login form .input{
+  font-family: 'Microsoft YaHei';
+}
+#nav,#backtoblog{
+  display: none;
+}
+/*白色*/
+body.login{
+  
+}
