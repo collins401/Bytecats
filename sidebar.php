@@ -40,7 +40,7 @@
   );
   ?>
    
-  <ul>
+  <ul class="items-cat">
   <?php wp_list_categories( $args ); ?>
   </ul> 
   </div>

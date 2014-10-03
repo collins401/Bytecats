@@ -23,7 +23,7 @@
 
 				
 					<li class="grid-1-4 col-1-2">
-						<a href="<?php the_permalink(); ?>"><?php echo post_thumbnail('150','150'); ?></a>
+						<a href="<?php the_permalink(); ?>"><?php echo post_thumbnail('200','200'); ?></a>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					</li>
 					 <?php endwhile; wp_reset_query();} ?>

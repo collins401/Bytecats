@@ -20,7 +20,6 @@
 	
 			
 			<div class="entry-article">
-				<?php echo post_thumbnail('150','150'); ?>
 				<?php the_content(); // Dynamic Content ?>
 			</div>
 <?php 

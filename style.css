@@ -162,6 +162,15 @@ h1 a,h2 a,h3 a,h4 a,h5 a{
 .sidebar h3{
 	border-bottom: 1px solid #ddd;
 }
+ul.items-cat{
+	line-height: 30px;
+}
+ul.items-cat > li{
+	border-bottom: 1px dashed #ddd;
+}
+ul.items-cat ul{
+	margin-left: 20px;
+}
 /*main*/
 .breadcrumb{
 	padding: 15px 0;
