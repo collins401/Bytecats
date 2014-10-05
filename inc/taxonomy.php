@@ -46,9 +46,6 @@ function create_post_type_html5()
 
 
   ));
-  register_taxonomy('color', 'post', array( 'hierarchical' => true,  'label' => '颜色', 'query_var' => true, 'rewrite' => false));
-  register_taxonomy('jijie', 'post', array( 'hierarchical' => true,  'label' => '季节', 'query_var' => true, 'rewrite' => false));
-  register_taxonomy('brands', 'post', array( 'hierarchical' => true,  'label' => '品牌', 'query_var' => true, 'rewrite' => false));
 }
 
 /*------------------------------------*\
