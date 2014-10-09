@@ -1,6 +1,6 @@
 ##wordpress企业站基础模板
 
->此主题模板根据[html5blank](https://github.com/toddmotto/html5blank)修改而成的适合中文版企业站的基础模板。不需要其他多余的插件也能完成一个功能齐全的企业网站。
+>此主题模板根据[html5blank](https://github.com/toddmotto/html5blank)修改而成的适合中文版企业站的基础模板。不需要其他多余的插件也能完成一个功能齐全的企业网站。网站样式[演示地址](http://wp.bytecats.com/)
 
 ###关于html5blank
 html5blank是一套高度优化过的博客主题。方便快速而又灵活定制属于自己的主题样式。
