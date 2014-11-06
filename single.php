@@ -36,8 +36,6 @@
 			
 
 				<?php the_tags( __( '标签: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
-颜色：<?php echo get_the_term_list($post->ID, 'color', '', ', ', ''); ?> <br>
-价格：<?php echo get_the_term_list($post->ID, 'jijie', '', ', ', ''); ?>
 			</div>
 		 	<ul class="pagetion clearfix">
               <li class="nav-prev"><?php previous_post_link('上一篇： %link'); ?></li>
