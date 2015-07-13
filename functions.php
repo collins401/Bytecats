@@ -467,6 +467,18 @@ function wpdx_disable_open_sans( $translations, $text, $context, $domain ) {
   }
   return $translations;
 }
+/**
+ * 禁用 Emoji 功能
+ */
+remove_action( 'admin_print_scripts',   'print_emoji_detection_script');
+remove_action( 'admin_print_styles',    'print_emoji_styles');
+
+remove_action( 'wp_head',       'print_emoji_detection_script', 7);
+remove_action( 'wp_print_styles',   'print_emoji_styles');
+
+remove_filter( 'the_content_feed',  'wp_staticize_emoji');
+remove_filter( 'comment_text_rss',  'wp_staticize_emoji');
+remove_filter( 'wp_mail',       'wp_staticize_emoji_for_email');
 //自定义后台登陆界面样式        
 function diy_login_page() {
   echo '<link rel="stylesheet" href="' . get_bloginfo( 'template_directory' ) . '/login.css" type="text/css" media="all" />' . "\n";

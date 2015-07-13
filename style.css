@@ -17,11 +17,8 @@ body,ul,dl,dt,dd{
 	margin:0;
 	padding:0;
 }
-html{
-	font-size: 87.5%;
-}
 body {
-	font:400 1em/1.5  Helvetica,Tohoma, Arial;color:#666; background: #ffffff;
+	font:400 12px/1.5  Helvetica,Tohoma, Arial;color:#666; background: #ffffff;
 }
 ul {
 	list-style: none;
