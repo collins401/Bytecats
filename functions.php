@@ -480,10 +480,10 @@ remove_filter( 'the_content_feed',  'wp_staticize_emoji');
 remove_filter( 'comment_text_rss',  'wp_staticize_emoji');
 remove_filter( 'wp_mail',       'wp_staticize_emoji_for_email');
 //自定义后台登陆界面样式        
-function diy_login_page() {
-  echo '<link rel="stylesheet" href="' . get_bloginfo( 'template_directory' ) . '/login.css" type="text/css" media="all" />' . "\n";
-}
-add_action( 'login_enqueue_scripts', 'diy_login_page' );
+// function diy_login_page() {
+//   echo '<link rel="stylesheet" href="' . get_bloginfo( 'template_directory' ) . '/login.css" type="text/css" media="all" />' . "\n";
+// }
+// add_action( 'login_enqueue_scripts', 'diy_login_page' );
 
 //去除category
  add_action( 'load-themes.php',  'no_category_base_refresh_rules');
