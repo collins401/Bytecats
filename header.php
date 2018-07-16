@@ -10,7 +10,7 @@
 <?php wp_head(); ?>
 </head>
 <body>
-
+<div class="site-wrapper">
     <header class="header" role="banner">
         <div class="container">
             <!-- logo -->
@@ -31,5 +31,5 @@
     </header>
     <!-- /header -->
     <!-- wrapper -->
-    <div class="container">
+    <div class="container site-main">
         <div class="row">
