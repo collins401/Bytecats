@@ -106,7 +106,7 @@ h1 a,h2 a,h3 a,h4 a,h5 a{
 .container:after{
 	content: "."; display: block; height: 0; clear: both; visibility: hidden;
 }
-.row{margin-left: -20px;}
+.row{margin-left: -20px; flex: 1;}
 .row [class*="grid-"]{
 	box-sizing:border-box;-webkit-box-sizing:border-box;padding-left: 20px;
 }
